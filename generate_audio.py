@@ -5,13 +5,8 @@ import os
 
 # AUDIO GENERATION PIPELINE (images -> captions -> audios)
 
-# def compute_coca(image, n_captions) -> np.array:
-#     pass
-#
-# def generate_audio(caption) -> np.array:
-#     pass
 
-# COMPUTE COCA
+# COMPUTE CoCa
 while True:
     obj_image_folder = input("Enter the reference image folder path here: ")
     # Check if the path exists
@@ -30,6 +25,6 @@ while True:
         print("Please insert an integer.")
 captions_list = compute_coca(obj_image_folder, n_captions)
 
-# COMPUTE AUDIOLDM
+# COMPUTE AudioLDM
 n, output_folder = generate_audio(captions_list)
 print(f"{n} audios generated successfully in: {output_folder}")
