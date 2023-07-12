@@ -38,7 +38,7 @@ def compute_coca(image_directory, n_captions):
     # Get list of image files in the directory
     image_files = [file for file in os.listdir(image_directory) if file.endswith((".jpg", ".png"))]
 
-    # Generar los captions para cada imagen
+    # Generate captions for each image
     for image_file in tqdm(image_files):
         image_path = os.path.join(image_directory, image_file)
         im = Image.open(image_path).convert("RGB")
