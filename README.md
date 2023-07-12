@@ -13,4 +13,5 @@ You will be asked for the directory in which you store the images you want to so
 
 ## Citations
 YU, Jiahui, et al. Coca: Contrastive captioners are image-text foundation models. arXiv preprint arXiv:2205.01917, 2022.
+
 LIU, Haohe, et al. Audioldm: Text-to-audio generation with latent diffusion models. arXiv preprint arXiv:2301.12503, 2023.
