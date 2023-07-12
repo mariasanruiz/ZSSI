@@ -35,7 +35,7 @@ def compute_coca(image_directory, n_captions):
 
     caption_list = []
 
-    # Obtener la lista de archivos de imagen en el directorio
+    # Get list of image files in the directory
     image_files = [file for file in os.listdir(image_directory) if file.endswith((".jpg", ".png"))]
 
     # Generar los captions para cada imagen
