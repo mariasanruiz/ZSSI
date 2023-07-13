@@ -1,5 +1,5 @@
-# Z-SSI: Zero-shot Sonorizng of Images
-Zero-shot Sonorizng of Images is an audio generator from images using CoCa and AudioLDM models.
+# Z-SSI: Zero-shot Sonorizing of Images
+Zero-shot Sonorizing of Images is an audio generator from images using CoCa and AudioLDM models.
 
 ## Get started
 Once you have cloned this repository you're all set to go. Run the following command:
