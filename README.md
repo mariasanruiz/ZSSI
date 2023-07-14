@@ -9,7 +9,10 @@ Once you have cloned this repository you're all set to go. Run the following com
 python generate_audio.py 
 ```
 
-You will be asked to enter the path to the folder containing the images to be soundtracked and the number of soundtracks to be created for each image. Once you've specified this, your audios will be generated in the ***generated_audios***  folder, ready for you to enjoy this new immersive experience!
+You will be asked to enter the path to the folder containing the images to be soundtracked and the number of soundtracks to be created for each image. 
+
+
+Once you've specified this, your audios will be generated in the ***generated_audios***  folder, ready for you to enjoy this new immersive experience!
 
 
 ## Citations
